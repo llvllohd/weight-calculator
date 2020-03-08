@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #AB4E68;
+    border-radius: 2px;
+    flex-direction: column;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid #FFD275;
+    /* padding: 11px; */
+    
+}
+
+.app .app-title{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+input{
+    border: 2px solid rgb(10, 7, 2);
+    margin: 3px;
+    padding: 1px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    border-radius: 5px;
+}
